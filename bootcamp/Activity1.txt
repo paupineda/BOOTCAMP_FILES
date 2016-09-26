@@ -1,0 +1,15 @@
+#!/bin/sh
+
+num1=1; num2=1;
+
+echo "" > Seq.txt
+
+for (( i=1;i<=$1;i++ ))
+do
+echo -n "$num1 " >> Seq.txt
+fn=$(( num1+num2 ))
+num1=$num2
+num2=$fn
+
+done
+exit 0

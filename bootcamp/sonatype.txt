@@ -1,0 +1,18 @@
+docker pull sonatype/nexus:2.11.3-01
+docker images
+docker save nexus
+docker save -o nexus.tar sonatype/nexus:2.11.3-01
+docker images
+docker rm -f nexus
+docker rmi -f sonatype/nexus
+docker rmi -f sonatype/nexus:2.11.3-01
+docker load -i nexus.tar
+docker images
+docker run -d nexus
+docker run -d sonatype/nexus
+docker run -d sonatype/nexus:2.11.3-01
+docker ps
+docker ps
+docker rm -f nexus
+docker rm -f hungry_shannon
+

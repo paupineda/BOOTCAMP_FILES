@@ -1,0 +1,104 @@
+ 1  exit
+    2  ssh-keygen -t rsa
+    3  ls
+    4  cd ls
+    5  cd /ls
+    6  cat ls
+    7  ssh-keygen -t rsa
+    8  ls
+    9  rm ls
+   10  ls
+   11  rm ls.pub
+   12  ls
+   13  cat id_rsa.pub
+   14  sudo yum install -y wget
+
+   17  wget https://s3-eu-west-1.amazonaws.com/pdc-oracle-fmw/oracleebskp.pem
+   18  ls
+   19  scp -i /home/ec2-user/.ssh/oraclebskp.pem id_rsa.pub ec2-user@ip-10-10-1-242:/tmp
+   20  ll
+   21  chmod 400 oracleebskp.pem
+   22  ll
+   23  scp -i /home/ec2-user/.ssh/oraclebskp.pem id_rsa.pub ec2-user@ip-10-10-1-242:/tmp
+   24  ls
+   25  scp -i /home/ec2-user/.ssh/oraclebskp.pem id_rsa.pub ec2-user@ip-10-10-1-242:/tmp
+   26  ls
+   27  cd /tmp
+   28  ls
+   29  cd /.ssh
+   30  cd .ssh
+   31  cd ~/.ssh/
+   32  ls
+   33  ls -la
+   34  scp -i /home/ec2-user/.ssh/oraclebskp.pem id_rsa.pub ec2-user@ip-10-10-1-242:pwd
+   35  pwd
+   36  scp -i /home/ec2-user/.ssh/oracleebskp.pem id_rsa.pub ec2-user@ip-10-10-1-242:/tmp
+   37  ls
+   38  cd /tmp
+   39  ls
+   40  ls
+   41  history
+   42  ls
+   43  cat id_rsa.pub
+   44  cd /home/ec2-user/.ssh
+   45  ls
+
+   52  vim authorized_keys
+   53  ssh ec2-user@ip-10-10-1-242
+
+
+
+
+
+   54  vim authorized_keys
+   55  cat /tmp/id_rsa.pub
+   56  ls
+   57  vim authorized_keys
+   58  vim authorized_keys
+   59  chmod 600 authorized_keys
+   60  ls
+   61  ll
+   62  ssh ec2-user@10.10.1.242
+   63  ls
+   64  chmod 400 oracleebskp.pem
+   65  chmod 700 /home/ec2-user/.ssh
+   66  ssh ec2-user@10.10.1.242
+   67  ls
+   68  vim authorized_keys
+   69  ssh ec2-uer@10.10.1.242
+   70  ssh ec2-user@10.10.1.242
+   71   ls
+   72  cat id_rsa.pub
+   73  cat authorized_keys
+   74  ls -lrta
+   75  pwd
+   76  cat known_hosts
+   77  rm -rf known_hosts
+   78  ls
+   79  ls
+   80  ssh ec2-user@ip-10-10-1-242
+   81   ls
+   82  exit
+   83  sudo su
+   84  ls
+   85  cd /tmp
+   86  ls
+   87  cat id_rsa.pub
+   88  cd /home/ec2-user/.ssh/
+   89  ls
+   90  vim authorized_keys
+   91  ssh ec2-user@10.10.1.242
+   92  ssh -i oracleebskp.pem  ec2-user@10.10.1.242
+   93  ls
+   94  rm -rf id_rsa*
+   95  ls
+   96  rm known_hosts
+   97  yes
+   98  ls
+   99  vim authorized_keys
+  100  ls
+  101  clear
+  102  rm -rf /tmp/id_rsa.pub
+  103  ls
+  104  exit
+  105  history

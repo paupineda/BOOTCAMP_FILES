@@ -1,0 +1,87 @@
+git config --global user.name "Pauleen Pineda"
+
+git config user.name
+
+git config --global user.email pauleen.s.pineda@accenture.com
+
+git config user.email
+
+git config --list
+
+
+cd Documents/
+
+ls
+
+mkdir server-repo
+
+cd server-repo/
+
+git init --bare
+
+history
+
+cd ..
+
+mkdir local-repo
+
+cd local-repo/
+
+git init
+
+
+
+
+
+ rm /c/Users/pauleen.s.pineda/Documents/local-repo-1 -rf
+   72  ls
+   73  mkdir local-repo
+   74  mkdir local-repo-1
+   75  cd local-repo
+   76  git init
+   77  git remote -v
+   78  touch read.txt
+   79  touch manual.txt
+   80  git remote add origin C:/Users/pauleen.s.pineda/Documents/server-repo
+   81  git remote -v
+   82  vim .gitignore
+   83  git status
+   84  git add .
+   85  git status
+   86  git commit -m "Initial Commit"
+   87  git push origin master
+   91  cd Documents
+   92  ls
+   93  cd local-repo-1
+   94  git init
+   95  git remote add origin C:/Users/pauleen.s.pineda/Documents/server-repo
+   96  git remote -v
+   97  git pull origin master
+   98  ls
+   99  history
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

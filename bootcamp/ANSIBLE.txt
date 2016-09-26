@@ -1,0 +1,22 @@
+sudo yum install -y gcc python27 python27-devel python27-pip
+
+pip install ansible
+
+cd /usr/local/
+
+cd bin
+
+ansible
+
+ln –s /usr/local/bin/ansible /usr/bin
+
+ansible
+
+ansible --version 
+
+
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFss80e2GbS1scdEpwJ0eQF68LVVRd6BqunUO4KMxN1nkBHz0OfukLUznISHwEGP0heuQquAC55UM9hqWrE/dZbilzC8Q5W6HQVV2E8Y4IamFX/nSIqRkYGGiDHw/wnSH0mshIyCAJSrULPm+aP7py9hzVMMzZCE4GeBupJtdEUUafXCLCPGsVkVLGmy7Q6LIcsRQbr/59asZdbGiOGzJ9ug1G7hFTna/1BwO088ndKe/9/L0kydMxhV7ujTF6eHUrARXm/WrHJyeOYdnfS4CPQD1TmpRf/1+X7MY1i+pOdBh7PY2EB2v1IhiKvxZ99FFh3ZCSDtQG27MVoS33g/qT ec2-user@ip-10-10-1-242
+

@@ -1,0 +1,52 @@
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~
+$ git config --global user.name "Pauleen Pineda"
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~
+$ git config user.name
+Pauleen Pineda
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~
+$ git config --global user.email pauleen.s.pineda@accenture.com
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~
+$ git config user.email
+pauleen.s.pineda@accenture.com
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~
+$ git config --list
+
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Users/pauleen.s.pineda/AppData/Local/Programs/Git/mingw64/ssl/certs/ca-bundle.crt
+sendemail.smtpserver=/bin/msmtp.exe
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+user.name=Pauleen Pineda
+user.email=pauleen.s.pineda@accenture.com
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~
+$ cd Documents/
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~/Documents
+$ ls
+apache-maven-3.3.9-bin/  desktop.ini  'My Music'@  'My Pictures'@  'My Videos'@
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~/Documents
+$ mkdir server-repo
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~/Documents
+$ cd server-repo/
+
+pauleen.s.pineda@PACD-8WTFC2S-D MINGW64 ~/Documents/server-repo
+$ git init --bare
+Initialized empty Git repository in C:/Users/pauleen.s.pineda/Documents/server-repo/
+
+
+

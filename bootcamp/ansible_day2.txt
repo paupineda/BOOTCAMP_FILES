@@ -1,0 +1,62 @@
+sudo yum install -y gcc python27 python27-devel python27-pip
+
+pip install ansible
+
+cd /usr/local/
+
+cd bin
+
+ansible
+
+
+ln –s /usr/local/bin/ansible /usr/bin
+
+ansible
+
+ansible --version 
+
+
+
+
+PLAYBOOK
+
+ln -s /usr/local/bin/ansible-playbook /usr/bin/ansible-playbook
+ansible --version
+ansible-playbook 
+
+
+>>>
+if error
+
+cd usr/bin/ansible
+rm -rf ansible
+ln -s /usr/local/bin/ansible /usr/bin/ansible
+<<<
+
+yum install -y wget
+
+mkdir -p /tmp/ansible
+
+cd /tmp/ansible
+
+wget https://s3-eu-west-1.amazonaws.com/pdc-oracle-fmw/ansible-playbook-master.zip
+
+unzip ansible-playbook-master.zip
+
+yum install -y tree
+
+tree
+
+
+
+
+    - name: testing container
+      docker:
+        name: testing
+        image: mad01/sshlab
+        state: started
+        pull: always
+        ports:
+          - "8080:80"
+
+
